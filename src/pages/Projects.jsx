@@ -54,7 +54,7 @@ const Projects = () => {
               imgPath={bananaGoonsInside}
               isBlog={false}
               title="Banana Goons"
-              description="Your project description."
+              description="Banana Goons is an exciting NFT project that brings a unique collection of digital assets to the blockchain, offering a creative and engaging experience for collectors and enthusiasts alike."
             />
           </Col>
 
@@ -63,7 +63,7 @@ const Projects = () => {
               imgPath={recharge_image}
               isBlog={false}
               title="Add Money"
-              description="Your project description."
+              description="We're implementing a 'Wallet Top-Up' feature, empowering users to easily add funds for accessing app services with convenience."
             />
           </Col>
           <Col md={10} className="project-card">
@@ -71,7 +71,7 @@ const Projects = () => {
               imgPath={matrimonial}
               isBlog={false}
               title="Matrimonial"
-              description="Your project description."
+              description="Elegant matrimonial app UI that fosters meaningful connections, providing users with a delightful experience in finding their ideal partners"
             />
           </Col>
           <Col md={10} className="project-card">
@@ -79,7 +79,7 @@ const Projects = () => {
               imgPath={PortfolioFourInside}
               isBlog={false}
               title="Payroll App"
-              description="Your project description."
+              description="An intuitive payroll app interface that combines payroll management and attendance tracking for a seamless user experience."
             />
           </Col>
         </Row>

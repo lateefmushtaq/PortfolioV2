@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
-import Particle from "../components/Particle";
 import image1 from "../assets/casestudypickrr/image1.png";
 import image2 from "../assets/casestudypickrr/persona_one.png";
 import image3 from "../assets/casestudypickrr/orderPlaced.png";
@@ -202,7 +201,7 @@ const Pickrr = () => {
             <h1 className="project-heading">
               Creating order: <strong className="yellow">Then vs Now </strong>
             </h1>
-            <Particle />
+
             <ProjectCard imgPath={image11} isBlog={false} />
           </Col>
         </Row>
