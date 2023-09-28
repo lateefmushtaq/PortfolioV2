@@ -18,7 +18,7 @@ import { CgDribbble, CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const dribbbleProfileUrl = "https://dribbble.com/lateefmushtaq";
+  const dribbleProfileUrl = "https://dribble.com/lateefmushtaq";
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -94,7 +94,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to={dribbbleProfileUrl}
+                to={dribbleProfileUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
