@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const FooterContainer = styled.div`
   .footer-content {
     display: flex;
@@ -13,12 +14,6 @@ export const FooterContainer = styled.div`
     @media (max-width: 768px) {
       flex-direction: column;
       align-items: center;
-
-      /* Hide LinkedIn and Dribbble links on mobile */
-      a[href*="linkedin"],
-      a[href*="dribbble"] {
-        display: none;
-      }
     }
   }
 
@@ -26,6 +21,10 @@ export const FooterContainer = styled.div`
     margin: 0;
     font-size: 1em;
     font-weight: bold;
+    
+    @media (max-width: 768px) {
+      font-size: 12px; /* Font size 12px on mobile */
+    }
   }
 
   .footer-content a {
@@ -33,6 +32,10 @@ export const FooterContainer = styled.div`
     color: #ffffff;
     font-weight: 500;
     font-size: 0.67em;
+    
+    @media (max-width: 768px) {
+      display: none; /* Hide all links on mobile */
+    }
   }
 
   .footer-content a:hover {

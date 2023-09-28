@@ -8,7 +8,7 @@ const About = () => {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <p className="home-about-body">
               Hi, my name is <b className="yellow">Lateef Mushtaq</b>
               <br />
@@ -28,7 +28,7 @@ const About = () => {
               <br />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={12} className="myAvtar">
             <Tilt>
               <img src={LaptopImg} className="img-fluid" alt="avatar" />
             </Tilt>
