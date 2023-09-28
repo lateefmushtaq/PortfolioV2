@@ -211,7 +211,7 @@ const Pickrr = () => {
           <Col md={10} className="project-card"></Col>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col xs={8} md={12} className="tech-icons">
+          <Col xs={12} md={10} className="tech-icons">
             <p
               style={{ ...iconStyle, color: "white", animation: "fadeOut 2s" }}
             >
