@@ -13,21 +13,14 @@ import {
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
-import { CgDribbble, CgFileDocument } from "react-icons/cg";
+import {  CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const dribbleProfileUrl = "https://dribble.com/lateefmushtaq";
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
+ 
 
-  window.addEventListener("scroll", scrollHandler);
+
 
   return (
     <Navbar
@@ -91,7 +84,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to={dribbleProfileUrl}
@@ -101,7 +94,7 @@ function NavBar() {
               >
                 <CgDribbble style={{ marginBottom: "2px" }} /> My Dribbble
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
