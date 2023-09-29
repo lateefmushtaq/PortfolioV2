@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillDribbbleCircle } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi"; // Import the email icon
-
+import { HiOutlineMail } from "react-icons/hi"; //
 const Footer = () => {
-  // Function to open the email client when the email icon is clicked
   const openEmailClient = () => {
     window.location.href = "mailto:lateefmushtaq4@gmail.com";
   };
@@ -13,7 +11,11 @@ const Footer = () => {
   return (
     <Container fluid className="footer">
       <Row className="align-items-center justify-content-center">
-        <Col md="12" className="text-center footer-body" style={{ fontSize: "16px" }}>
+        <Col
+          md="12"
+          className="text-center footer-body"
+          style={{ fontSize: "16px" }}
+        >
           <div className="d-flex align-items-center justify-content-center">
             <a
               href="mailto:lateefmushtaq4@gmail.com"

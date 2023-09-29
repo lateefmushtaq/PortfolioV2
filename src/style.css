@@ -418,11 +418,15 @@ html {
     align-items: center;
     justify-content: center;
   }
-  
-  .footer-copywright span {
-   color: white;
-   font-size: 1.2rem;
+  @media (max-width: 768px) {
+    .footer a {
+      font-size: 0; /* Hide text on mobile */
+    }
+    .footer svg {
+      font-size: 24px; /* Adjust icon size as needed */
+    }
   }
+ 
 
   .footer-body {
     z-index: 1;
