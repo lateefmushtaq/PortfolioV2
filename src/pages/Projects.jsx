@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 
-import project from "../assets/projects/case_study_2.png";
+import project from "../assets/affindi/img1.png";
 import lift from "../assets/projects/case_study_1.png";
 import bananaGoonsInside from "../assets/projects/bananaGoonsInside.png";
 import PortfolioFourInside from "../assets/projects/PortfolioFourInside.png";
